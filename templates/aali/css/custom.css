@@ -2297,16 +2297,7 @@ h6 {
 	font-weight: 600;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-	#sppb-addon-wrapper-1638023020679 {
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 30px;
-		margin-left: 0;
-	}
-}
-
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 	#sppb-addon-wrapper-1638023020679 {
 		margin-top: 0;
 		margin-right: 0;
@@ -2380,9 +2371,7 @@ h6 {
 	color: #3c3c3c;
 	box-shadow: 0 0 0 0 #ffffff;
 }
-#sppb-addon-1638023713828 a {
-	color: #b6b2bf;
-}
+
 #sppb-addon-1638023713828 a:hover,
 #sppb-addon-1638023713828 a:focus,
 #sppb-addon-1638023713828 a:active {
@@ -2397,7 +2386,7 @@ h6 {
 	line-height: 26px;
 }
 
-#sppb-addon-1638023954005 a, #sppb-addon-1638023954005  {
+#sppb-addon-1638023954005 a, #sppb-addon-1638023954005, #sppb-addon-1638023713828 a   {
 	color: #b6b2bf;
 }
 
@@ -2427,3 +2416,5 @@ h6 {
 	text-decoration: none;
 	transition: all .3s ease;
 }
+
+.sppb-addon-content p {margin-bottom: 3px;}
